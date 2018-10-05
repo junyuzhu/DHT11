@@ -3,6 +3,7 @@
 
 
 d.py实现了获取温湿度与保存到tmp_data.txt与hud_data.txt
+
 moving.py实现创建文件夹与移动温湿度文件到昨天时间文件夹的功能
 
 其余两个.sh 文件是实现Linux规程任务所需要的执行文件
