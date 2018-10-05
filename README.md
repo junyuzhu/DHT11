@@ -9,12 +9,17 @@ moving.py实现创建文件夹与移动温湿度文件到昨天时间文件夹�
 其余两个.sh 文件是实现Linux规程任务所需要的执行文件
 
 
-#####################
+##############################################################
 具体实现方式
+
+git clone https://github.com/junyuzhu/DHT11.git 
+
 
 在命令行中输入crontab -e
 
 在末尾添加
+
+
 */1 * * * * (sh /home/pi/DHT11/run_tem.sh)      #实现每分钟执行一次获取温湿度
 
 1 0 * * * (sh /home/pi/DHT11/moving.sh)         #实现每天的00：01创建文件夹，移动tmp_data.txt与hud_data.txt
