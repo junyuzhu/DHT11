@@ -2,18 +2,16 @@
 
 具体实现方式
 0 线材连接
-DHT传感器有VCC，DATA，GND三个引脚，
+DHT传感器有VCC，DATA，GND三个引脚
+
 VCC——————> +5V
 DATA———————> gpio 4口
 GND——————> GND 
 
-获取代码
+1.获取代码
 在命令行中输入
 git clone https://github.com/junyuzhu/DHT11.git
 克隆完成后,会出现一个DHT11文件夹在你的命令行当前目录
-
-
- 
 
 2.修改定时任务
 在命令行中输入crontab -e ,第一次使用时crontab会要你选择一个编辑器，输入1或者2 选择你喜欢的编辑器
